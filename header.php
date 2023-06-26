@@ -58,7 +58,7 @@
           </div>
           <div class="hidden lg:block w-[1px] h-[24px] bg-gray-200 mx-4"></div>
           <div class="relative hidden lg:flex items-center bg-gradient-to-b from-blue-500 hover:from-blue-600 to-blue-700 hover:to-blue-800 text-white rounded px-4 py-2">
-            <a href="#" class="absolute-link"></a>
+            <a href="/feedback" class="absolute-link"></a>
             <div class="text-gray-200 mr-2">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
                 <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />

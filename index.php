@@ -22,7 +22,7 @@
         <div class="flex items-center mb-1">
           <?php
           $post_categories_1 = get_the_terms( $new_posts->ID, 'category' );
-          foreach ($post_categories_1 as $category_1){ ?>
+          foreach (array_slice($post_categories_1, 0,1) as $category_1){ ?>
             <div class="text-blue-600 font-semibold mr-4"><a href="<?php echo get_term_link($category_1->term_id, 'category') ?>" class="hover:text-red-500"><?php echo $category_1->name; ?></a></div>
           <?php } ?>
           <div class="text-sm text-gray-500"><?php echo get_the_modified_time('F j, Y'); ?></div>
@@ -69,7 +69,7 @@
         <div class="flex items-center mb-1">
           <?php
           $post_categories_2 = get_the_terms( $post_category_2->ID, 'category' );
-          foreach ($post_categories_2 as $category_2){ ?>
+          foreach (array_slice($post_categories_2, 0,1) as $category_2){ ?>
             <div class="text-blue-600 font-semibold mr-4"><a href="<?php echo get_term_link($category_2->term_id, 'category') ?>" class="hover:text-red-500"><?php echo $category_2->name; ?></a></div>
           <?php } ?>
           <div class="text-sm text-gray-500"><?php echo get_the_modified_time('F j, Y'); ?></div>

@@ -4,7 +4,7 @@
   <div class="container">
     <div class="flex flex-col-reverse lg:flex-row flex-wrap lg:-mx-4">
       <div class="w-full lg:w-1/2 lg:px-4">
-        <div class="text-xl font-extrabold"><a href="<?php echo get_home_url(); ?>"><span class="text-2xl bg-gradient-to-b from-blue-500 hover:from-blue-600 to-blue-700 hover:to-blue-800 rounded-lg p-1">👩‍🍳</span> <span class="text-red-500">Кулінарна</span> Книга</a></div>
+        <div class="text-xl font-extrabold mb-4"><a href="<?php echo get_home_url(); ?>"><span class="text-2xl bg-gradient-to-b from-blue-500 hover:from-blue-600 to-blue-700 hover:to-blue-800 rounded-lg p-1">👩‍🍳</span> <span class="text-red-500">Кулінарна</span> Книга</a></div>
         <div class="text-lg opacity-75 mb-4">
           <?php _e("Book-Cook - це сайт, на якому зібрані корисні поради та покрокові рецепти. Смачного!", "treba-wp"); ?>
         </div>
