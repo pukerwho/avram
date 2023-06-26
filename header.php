@@ -24,7 +24,7 @@
     <div class="container">
       <div class="flex justify-between items-center">
         <div class="flex items-center">
-          <div class="text-xl font-extrabold"><a href="<?php echo get_home_url(); ?>"><span class="text-red-500">А</span>враменко</a></div>
+          <div class="text-xl font-extrabold"><a href="<?php echo get_home_url(); ?>"><span class="text-2xl bg-gradient-to-b from-blue-500 hover:from-blue-600 to-blue-700 hover:to-blue-800 rounded-lg p-1">👩‍🍳</span> <span class="text-red-500">Кулінарна</span> Книга</a></div>
           <div class="hidden lg:block ml-10">
             <?php wp_nav_menu([
               'theme_location' => 'header',

@@ -12,7 +12,7 @@
             array(
               'taxonomy' => 'category',
               'field'    => 'slug',
-              'terms'    => 'lessons',
+              'terms'    => 'myasnye-blyuda',
             )
           ),
         ) );
@@ -59,7 +59,7 @@
             array(
               'taxonomy' => 'category',
               'field'    => 'slug',
-              'terms'    => 'books',
+              'terms'    => 'vtorye-blyuda',
             )
           ),
         ) );

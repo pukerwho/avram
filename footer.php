@@ -4,9 +4,9 @@
   <div class="container">
     <div class="flex flex-col-reverse lg:flex-row flex-wrap lg:-mx-4">
       <div class="w-full lg:w-1/2 lg:px-4">
-        <div class="text-xl font-extrabold mb-4"><a href="<?php echo get_home_url(); ?>"><span class="text-red-500">А</span>враменко</a></div>
+        <div class="text-xl font-extrabold"><a href="<?php echo get_home_url(); ?>"><span class="text-2xl bg-gradient-to-b from-blue-500 hover:from-blue-600 to-blue-700 hover:to-blue-800 rounded-lg p-1">👩‍🍳</span> <span class="text-red-500">Кулінарна</span> Книга</a></div>
         <div class="text-lg opacity-75 mb-4">
-          <?php _e("Авраменко.укр - це ресурс, на якому зібрані корисні матеріали. Завдяки нашим статтям читачі отримують нові практичні знання."); ?>
+          <?php _e("Book-Cook - це сайт, на якому зібрані корисні поради та покрокові рецепти. Смачного!", "treba-wp"); ?>
         </div>
         <div class="text-sm opacity-75">2023.</div>
       </div>
@@ -26,7 +26,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
             </svg>
           </div>
-          <div class="font-light">avramenkourk@gmail.com</div>
+          <div class="font-light">info@book-cook.net</div>
         </div>
       </div>
     </div>
