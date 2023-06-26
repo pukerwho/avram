@@ -12,7 +12,7 @@
             array(
               'taxonomy' => 'category',
               'field'    => 'slug',
-              'terms'    => 'myasnye-blyuda',
+              'terms'    => 'rybni-stravy',
             )
           ),
         ) );
@@ -59,7 +59,7 @@
             array(
               'taxonomy' => 'category',
               'field'    => 'slug',
-              'terms'    => 'vtorye-blyuda',
+              'terms'    => 'myasni-stravy',
             )
           ),
         ) );
