@@ -1,10 +1,23 @@
+<?php 
+$current_title = wp_get_document_title();
+$current_year = date("Y");
+// FOR POSTs
+if ( is_singular( 'post' ) ) {
+  $current_title = get_the_title();
+  $post_title = carbon_get_the_post_meta('crb_post_title');
+  $post_description = carbon_get_the_post_meta('crb_post_description');
+  if ($post_title) {
+    $current_title = $post_title;
+  }
+  if ($post_description) {
+    $current_description = $post_description;
+  }
+}
+?>
+
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-  <?php 
-    $current_title = wp_get_document_title();
-    $current_year = date("Y");
-  ?>
   <title><?php echo $current_title; ?></title>
   <?php if ($current_description): ?>
     <meta name="description" content="<?php echo $current_description; ?>"/>
